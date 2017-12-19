@@ -40,7 +40,7 @@
                                             <MYSQL_PASSWORD>n3x4L44nd7R1M8l315K3wL!</MYSQL_PASSWORD>
                                         </env>
                                         <ports>
-                                            <port>0.0.0.0:3306:3306</port>
+                                            <port>0.0.0.0:3306:6464</port>
                                         </ports>
                                     </run>
                                 </image>

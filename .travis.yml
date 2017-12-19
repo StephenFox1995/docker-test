@@ -11,4 +11,6 @@ cache:
   directories:
    - "$HOME/.m2"
 
-script: sudo service mysql stop && mvn clean verify
+script: 
+  - sudo service mysql stop
+  - mvn clean verify
